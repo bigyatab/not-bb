@@ -1,0 +1,92 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background image and center it */
+body {
+    background: url('Coffee Beans.jpg');
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+/* Container for the menu */
+.menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the menu */
+.menu {
+    background-color: #d2a679;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid #8b4513;
+}
+
+
+/* Header styling */
+.menu h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.established {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Section styling */
+.main-section {
+    margin-bottom: 20px;
+}
+
+.main-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* List styling */
+.main-section ul {
+    list-style-type: none;
+}
+
+.main-section li {
+    font-size: 16px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    height: 2px;
+    background-color: #5C2A1F;
+    outline: none;
+    border: none;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+.footer a {
+    display: block;
+    margin-bottom: 5px;
+    color: #8b4513;
+    text-decoration: none;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #8b4513;
+}
